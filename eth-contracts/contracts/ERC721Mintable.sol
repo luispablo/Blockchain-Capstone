@@ -33,7 +33,7 @@ contract Ownable {
     function transferOwnership(address newOwner) public onlyOwner {
         // TODO add functionality to transfer control of the contract to a newOwner.
         // make sure the new owner is a real address
-        require(newOwner != 0, "The new owner is not a real address");
+        require(newOwner != address(0), "The new owner is not a real address");
         _owner = newOwner;
         emit OwnershipTransfered(_owner);
     }
@@ -239,7 +239,7 @@ contract ERC721 is Pausable, ERC165 {
     // TIP: remember the functions to use for Counters. you can refresh yourself with the link above
     function _mint(address to, uint256 tokenId) internal {
         // TODO revert if given tokenId already exists or given address is invalid
-        require(_tokenOwner[tokenId] == 0 && to != 0, "Token already exits or invalid owner address");
+        require(_tokenOwner[tokenId] == address(0) && to != address(0), "Token already exits or invalid owner address");
         // TODO mint tokenId to given address & increase token count of owner
         _tokenOwner[tokenId] = to;
         _ownedTokensCount[to].increment();
@@ -253,7 +253,7 @@ contract ERC721 is Pausable, ERC165 {
         // TODO: require from address is the owner of the given token
         require(_tokenOwner[tokenId] == from, "The from is not the token owner");
         // TODO: require token is being transfered to valid address
-        require(to != 0, "Token target address is invalid");
+        require(to != address(0), "Token target address is invalid");
         // TODO: clear approval
         _clearApproval(tokenId);
         // TODO: update token counts & transfer ownership of the token ID 
