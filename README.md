@@ -20,6 +20,10 @@ The capstone will build upon the knowledge you have gained in the course in orde
 3. Start Ganache local development network ```npm run ganache```
 4. Run the unit tests with truffle ```truffle test```
 
+# Generating contracts Abi's
+
+After the project is cloned and dependencies installed, running ```truffle compile``` will leave the contract abi's in the directory ```build/contracts```.
+
 # Rinkeby deployment information
 
 ## SquareVerifier
