@@ -36,9 +36,9 @@ The capstone will build upon the knowledge you have gained in the course in orde
 
 ## Zokrates
 
-- [ ] Student completes the Zokrates proof in square.code by adding the variable names in square.code
-- [ ] Student completes test contract in SolnSquareVerifier.sol
-- [ ] Student writes and passes the test cases in 'TestSolnSquareVerifier.js'
+- [x] Student completes the Zokrates proof in square.code by adding the variable names in square.code
+- [x] Student completes test contract in SolnSquareVerifier.sol
+- [x] Student writes and passes the test cases in 'TestSolnSquareVerifier.js'
 
 ## OpenSea Marketplace
 
