@@ -13,19 +13,26 @@ The capstone will build upon the knowledge you have gained in the course in orde
 * [Docker](https://docs.docker.com/install/)
 * [ZoKrates](https://github.com/Zokrates/ZoKrates)
 
+# Testing the code
+
+1. Clone the repo ```git clone https://github.com/luispablo/Blockchain-Capstone.git```
+2. Go to the repo directory and install dependencies ```npm install```
+3. Start Ganache local development network ```npm run ganache```
+4. Run the unit tests with truffle ```truffle test```
+
 # Project Specification (rubric)
 
 ## Project Deliverables
 
-- [ ] Student includes a README to explain how to test their code
+- [x] Student includes a README to explain how to test their code
 - [ ] Student provides Contract Addresses, Contract Abi's, OpenSea MarketPlace Storefront link's.
 
 ## ERC721
 
-- [ ] Student completes the boilerplate ERC721 Mintable Contract in ERC721Mintable.sol
-- [ ] Student writes and passes the test cases in TestERC721Mintable.js
-- [ ] Student writes and passes the test cases in 'TestSquareVerifier.js'
-- [ ] Student writes and passes the test cases in TestSolnSquareVerifier.js
+- [x] Student completes the boilerplate ERC721 Mintable Contract in ERC721Mintable.sol
+- [x] Student writes and passes the test cases in TestERC721Mintable.js
+- [x] Student writes and passes the test cases in 'TestSquareVerifier.js'
+- [x] Student writes and passes the test cases in TestSolnSquareVerifier.js
 
 ## Zokrates
 
