@@ -14,10 +14,10 @@ contract('TestERC721Mintable', accounts => {
             this.contract = await LuispaERC721Token.new({from: account_one});
 
             // TODO: mint multiple tokens
-            await this.contract.mint(account1, 1, "one");
-            await this.contract.mint(account2, 2, "two");
-            await this.contract.mint(account3, 3, "three");
-            await this.contract.mint(account4, 4, "four");
+            await this.contract.mint(account1, 1);
+            await this.contract.mint(account2, 2);
+            await this.contract.mint(account3, 3);
+            await this.contract.mint(account4, 4);
         })
 
         it('should return total supply', async function () { 
@@ -52,7 +52,7 @@ contract('TestERC721Mintable', accounts => {
 
         it('should fail when minting when address is not contract owner', async function () { 
             try {
-                await this.contract.mint(account1, 1, "one", { from: account2 });
+                await this.contract.mint(account1, 1, { from: account2 });
             } catch (err) {
                 assert.equal(err.message, "Returned error: VM Exception while processing transaction: revert Sender is not the contract owner -- Reason given: Sender is not the contract owner.");
             }
