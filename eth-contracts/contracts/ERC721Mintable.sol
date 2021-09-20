@@ -537,7 +537,7 @@ contract LuispaERC721Token is ERC721Metadata {
 
     }
 
-    function mint (address to, uint256 tokenId, string memory tokenURI) public {
+    function mint (address to, uint256 tokenId) public {
         require(msg.sender == super.getOwner(), "Sender is not the contract owner");
         super._mint(to, tokenId);
         super._setTokenURI(tokenId);

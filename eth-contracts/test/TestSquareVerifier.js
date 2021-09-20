@@ -7,10 +7,6 @@ const SquareVerifier = artifacts.require('SquareVerifier');
 contract('SquareVerifier', accounts => {
 
   const account_one = accounts[0];
-  const account1 = accounts[1];
-  const account2 = accounts[2];
-  const account3 = accounts[3];
-  const account4 = accounts[4];
 
   const { proof, inputs } = JSON.parse(fs.readFileSync("../zokrates/code/square/proof.json"));
 
