@@ -1,0 +1,50 @@
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 29999888 (0x1c9c310)
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'SquareVerifier'
+   --------------------------
+   > transaction hash:    0x8306a7988873981b19e01b271e6eecd877742cb48b45cc2f34219dc4b0a2d5c6
+   > Blocks: 2            Seconds: 21
+   > contract address:    0xF1dD9199f2dE8251371c6Eb8383639e620A797D7
+   > block number:        9328313
+   > block timestamp:     1632180555
+   > account:             0xdeB11741FA7b8b62905d191deCf3f76b17993F9F
+   > balance:             18.737535393301401456
+   > gas used:            979356 (0xef19c)
+   > gas price:           1.000000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000979356007834848 ETH
+
+
+   Deploying 'SolnSquareVerifier'
+   ------------------------------
+   > transaction hash:    0x3fbab024ab0bd9d256702cc992555d7f93cd0be4db45ec9cb068bc6c4fedb90c
+   > Blocks: 1            Seconds: 15
+   > contract address:    0xD5b73b1048a47eF9FFFC3Ee618147bE745dA9fa5
+   > block number:        9328314
+   > block timestamp:     1632180570
+   > account:             0xdeB11741FA7b8b62905d191deCf3f76b17993F9F
+   > balance:             18.734101063273926816
+   > gas used:            3434330 (0x34675a)
+   > gas price:           1.000000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00343433002747464 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.004413686035309488 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.004413686035309488 ETH
