@@ -28,43 +28,40 @@ After the project is cloned and dependencies installed, running ```truffle compi
 
 ## SquareVerifier
 
-- transaction hash:    0x8306a7988873981b19e01b271e6eecd877742cb48b45cc2f34219dc4b0a2d5c6
-- contract address:    0xF1dD9199f2dE8251371c6Eb8383639e620A797D7
-- block timestamp:     1632180555
+- transaction hash:    0xaefcdf92d8d755d66bf2ebcf01a320fd20779db3f9fb206cc6ad44e231827784
+- contract address:    0x148F083Eb4BFD15e9A487e2FAdb3d248C5eee17c
+- block timestamp:     1632265736
 - account:             0xdeB11741FA7b8b62905d191deCf3f76b17993F9F
 
 ## SolnSquareVerifier
 
-- transaction hash:    0x3fbab024ab0bd9d256702cc992555d7f93cd0be4db45ec9cb068bc6c4fedb90c
-- contract address:    0xD5b73b1048a47eF9FFFC3Ee618147bE745dA9fa5
-- block timestamp:     1632180570
+- transaction hash:    0x0bb9410f46fcdfdd8743072c13482fad153dfa21db004acd5041a1ec9590e2dc
+- contract address:    0x4696aADc83Aa82eB64f34E345A211aE802e5bB55
+- block timestamp:     1632265751
 - account:             0xdeB11741FA7b8b62905d191deCf3f76b17993F9F
 
 ## Minted tokens
 
-Minting token 11
-Minted Token. Transaction: 0xe2fc92b673c6e0b23e4466eb3c3f9a843d7576f53aa194f63abc6271085083ce
-Minting token 12
-Minted Token. Transaction: 0x02d2be8dcae2069c05441d922838db910c35b6dde6fd3a653a5b122c1f80ea79
-Minting token 13
-Minted Token. Transaction: 0xbe3fd438012f8c057f9fe2f3b6a1a723149af8e33a0ea6895b6aa26969d43cd7
-Minting token 14
-Minted Token. Transaction: 0x5cbd30c44d7fec28aceb49db5752ee27f46682929db712d021a57bb1a9f2443d
-Minting token 15
-Minted Token. Transaction: 0x5467d732c9496101a184ddbea803cd912668035677401e6803fb134384ea2d2c
-Minting token 16
-Minted Token. Transaction: 0x66c68b85ed9da7639cc4d04164dcfc428b1ec3f244e5b2bd94efb54323fd5feb
-Minting token 17
-Minted Token. Transaction: 0xa5629e8b1eaca0550d34fe1991c162ad6f5aee0f783e08b6b7cf572e83fa733f
-Minting token 18
-Minted Token. Transaction: 0x14a1e52da892d6ac588378608acbcd189400e3daa38f017f0575bd00783b58cc
-Minting token 19
-Minted Token. Transaction: 0xfc81ff1ed8985ff7148d8bb854878bf079206ddfea79d62fd57715b9bf8dd29f
-Minting token 20
-Minted Token. Transaction: 0x3708743902f73620379952cec689a4f0bf30462ec2e6ca18b58ed55e0bd09852
-Minting token 21
-Minted Token. Transaction: 0x5c2db3a3a7c529248cc056fa7f1ea120d3c2c758ee04a43ac123f0a175784e9c
-
+Minting token 1
+Minted Token. Transaction: 0xa72a9e2ad62f11dd0b6d3e7f790b1aaf2b20e8f454aee78c3a19c99c42808573
+Minting token 2
+Minted Token. Transaction: 0xca35e3156b4253566b5236e7b6f631ba7f60c6b90769f64405a97c050592f4cd
+Minting token 3
+Minted Token. Transaction: 0x03d1028c2b5e4b70d7fc30e7af02c5221e00712e4385249840d7e3c57b8d94f7
+Minting token 4
+Minted Token. Transaction: 0xa69a542d6a55386af40731d57d16470f51148266abd701c4fc4199de0b0b1f2d
+Minting token 5
+Minted Token. Transaction: 0x4784309cef83a142f3a5a542c0e7d8efce870eccada72f6a80beae6e0d5d2f1d
+Minting token 6
+Minted Token. Transaction: 0xb807d31fd15f0aa0a8d3e39c9463a00ea8e9d1cde404e0ec4b47333e155b2a4b
+Minting token 7
+Minted Token. Transaction: 0x76c066e5d6057ec099e8e7b4adaeb02d12bad584073175233691dc5485732e71
+Minting token 8
+Minted Token. Transaction: 0xe7683cf3fbc7405146cd9e2369f5440abbf93e93f8faf5ee13a38f6707234208
+Minting token 9
+Minted Token. Transaction: 0xeec5dae1df10db6c15eeb75058317ee20471e051855f2b6011a9242a7dbb97f8
+Minting token 10
+Minted Token. Transaction: 0x92456f77f1b77b109efab6137e6492f617f0c4e46958a14439dbe8204d6e77d3
 # Project Specification (rubric)
 
 ## Project Deliverables
