@@ -12,7 +12,7 @@ const NETWORK = config.NETWORK
 const NUM_TOKENS = 10
 
 const proofs =  [];
-for (let i = 6; i < 10; i++) proofs.push(JSON.parse(fs.readFileSync(`../zokrates/code/square/proof_0${i}.json`)));
+for (let i = 0; i < 10; i++) proofs.push(JSON.parse(fs.readFileSync(`../zokrates/code/square/proofs/proof-${i}.json`)));
 
 const CONTRACT_FILE = require('./build/contracts/SolnSquareVerifier');
 const NFT_ABI = CONTRACT_FILE.abi;
@@ -30,7 +30,7 @@ if (!MNEMONIC || !INFURA_KEY || !OWNER_ADDRESS || !NETWORK) {
     const nftContract = new web3Instance.eth.Contract(NFT_ABI, NFT_CONTRACT_ADDRESS, { gasLimit: "1000000" });
 
     // Tokens minted directly to the owner.
-    let tokenId = 17;
+    let tokenId = 0;
 
     for (const proof of proofs) {
       tokenId++;
