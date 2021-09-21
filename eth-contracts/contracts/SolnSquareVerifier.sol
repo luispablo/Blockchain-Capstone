@@ -26,7 +26,7 @@ contract SolnSquareVerifier is LuispaERC721Token {
   // TODO Create an event to emit when a solution is added
   event SolutionAdded (Solution sol);
 
-  constructor(address verifierContractAddr) public {
+  constructor (address verifierContractAddr, string memory name, string memory symbol) LuispaERC721Token(name, symbol) public {
     verifier = Verifier(verifierContractAddr);
   }
 
