@@ -62,6 +62,17 @@ Minting token 9
 Minted Token. Transaction: 0xeec5dae1df10db6c15eeb75058317ee20471e051855f2b6011a9242a7dbb97f8
 Minting token 10
 Minted Token. Transaction: 0x92456f77f1b77b109efab6137e6492f617f0c4e46958a14439dbe8204d6e77d3
+
+## OpenSea
+
+### Items for sale
+
+https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/5
+https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/4
+https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/3
+https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/2
+https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/1
+
 # Project Specification (rubric)
 
 ## Project Deliverables
