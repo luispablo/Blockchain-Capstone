@@ -67,18 +67,28 @@ Minted Token. Transaction: 0x92456f77f1b77b109efab6137e6492f617f0c4e46958a14439d
 
 ### Items for sale
 
-https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/5
-https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/4
-https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/3
-https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/2
-https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/1
+- https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/1
+- https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/2
+- https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/3
+- https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/4
+- https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/5
+
+### Purchasing transactions
+
+All my tokens where purchased from my other address: 0xdeB11741FA7b8b62905d191deCf3f76b17993F9F (https://testnets.opensea.io/0x896439f1b792e4c4443df04bbaec2dc1612349d3)
+
+- Token 1: https://rinkeby.etherscan.io/tx/0x56f9ee9f7491bc3593dc959635100c463c76b17decb4119e0dd1be00d783e9af
+- Token 2: https://rinkeby.etherscan.io/tx/0x7be204f6d442f5a17cf4d98791fefc28f38b9e865d993362d2ed8038e8c711b4
+- Token 3: https://rinkeby.etherscan.io/tx/0x9cfe7b8934420a6bf87a6c87947335bbbfd292ec0d50d91cb2654032333dc610
+- Token 4: https://rinkeby.etherscan.io/tx/0x63babefc5f803028cd2004dae47aed3561801380bc92ec67f39b2400a25557c3
+- Token 5: https://rinkeby.etherscan.io/tx/0x947b887205e11e3c8fcba1663dbcbd32b4091ace62c05cd8fbb39849f5964d8d
 
 # Project Specification (rubric)
 
 ## Project Deliverables
 
 - [x] Student includes a README to explain how to test their code
-- [ ] Student provides Contract Addresses, Contract Abi's, OpenSea MarketPlace Storefront link's.
+- [x] Student provides Contract Addresses, Contract Abi's, OpenSea MarketPlace Storefront link's.
 
 ## ERC721
 
@@ -95,7 +105,7 @@ https://testnets.opensea.io/assets/0x4696aadc83aa82eb64f34e345a211ae802e5bb55/1
 
 ## OpenSea Marketplace
 
-- [ ] Student list ERC721/ ZoKrates tokens & complete transactions on market place
+- [x] Student list ERC721/ ZoKrates tokens & complete transactions on market place
 
 ## Deployment
 
